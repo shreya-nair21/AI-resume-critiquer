@@ -23,4 +23,4 @@ app.py – Main Streamlit app
 requirements.txt – Python dependencies
 
 👩‍💻 Author
-Shreya Nair – GitHub
+Shreya Nair – [GitHub](https://github.com/shreya-nair21)
