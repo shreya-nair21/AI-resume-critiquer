@@ -4,11 +4,8 @@ import io
 import os
 import google.generativeai as genai
 
-# Load environment variables
-
-
-# Configure Gemini API
-genai.configure(api_key=os.getenv("GEMINI_API_KEY"))
+# Configure Gemini API securely using Streamlit secrets
+genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 
 # Set up Streamlit UI
 st.set_page_config(page_title="AI Resume Critiquer", page_icon="📃", layout="centered")
