@@ -85,11 +85,6 @@ def analyze_resume_with_gemini(resume_text, job_role=None):
 
 # Handle analysis
 if analyze and uploaded_file:
-    # Check if API key is available
-    if not os.getenv("GEMINI_API_KEY"):
-        st.error("❌ Gemini API key not found. Please check your .env file.")
-        st.stop()
-    
     with st.spinner("Extracting text from your resume..."):
         file_content = extract_text_from_file(uploaded_file)
     
