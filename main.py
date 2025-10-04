@@ -2,10 +2,10 @@ import streamlit as st
 import PyPDF2
 import io
 import os
+import google.generativeai as genai
 
 # Configure Gemini API securely using Streamlit secrets
 genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
-import google.generativeai as genai
 
 
 # Set up Streamlit UI
