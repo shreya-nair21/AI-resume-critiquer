@@ -27,10 +27,15 @@ Check out the deployed app here:
 ## 📂 Project Structure
 AI-Resume-Critiquer/
 ├── .gitignore # Git ignore rules
+
 ├── .python-version # Python version used (for pyenv or similar)
+
 ├── README.md # Project documentation
+
 ├── main.py # Main Streamlit application
+
 ├── requirements.txt # Python dependencies
+
 └── test_gemini.py # Test script (optional, for experimentation)
 
 
