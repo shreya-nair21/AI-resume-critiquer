@@ -1,12 +1,12 @@
 [project]
-name = "project2"
+name = "ai-resume-critiquer"
 version = "0.1.0"
-description = "Add your description here"
+description = "AI-powered resume critique tool"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
-    "openai>=1.79.0",
-    "pypdf2>=3.0.1",
-    "python-dotenv>=1.1.0",
     "streamlit>=1.45.1",
+    "PyPDF2>=3.0.1",
+    "google-generativeai>=0.3.0",
+    "python-dotenv>=1.1.0",
 ]
