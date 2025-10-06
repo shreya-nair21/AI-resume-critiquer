@@ -24,11 +24,6 @@ Check out the deployed app here:
 
 ---
 
-
-
-
----
-
 ## 💻 Run Locally
 
 1. Clone the repository:
