@@ -16,7 +16,7 @@ for m in models:
     print(m.name)
 
 # Then try to create the model with the full model name
-model = genai.GenerativeModel("models/gemini-2.0-flash")
+model = genai.GenerativeModel("models/gemini-1.5-flash-latest")
 
 
 
