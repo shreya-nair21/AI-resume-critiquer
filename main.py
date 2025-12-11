@@ -47,7 +47,7 @@ def extract_text_from_file(uploaded_file):
 def analyze_resume_with_gemini(resume_text, job_role=None):
     try:
         # Initialize Gemini model
-        model = genai.GenerativeModel('gemini-1.5-flash')
+        model = genai.GenerativeModel('gemini-2.0-flash')
         
         # Create a comprehensive prompt
         job_context = f" for the role of {job_role}" if job_role else ""
